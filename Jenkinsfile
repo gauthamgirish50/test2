@@ -1,5 +1,5 @@
 Pipeline {
-  agent any;
+  agent any
     stage {
       stage {'BUILD'} {
         steps {
