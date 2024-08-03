@@ -1,7 +1,7 @@
 Pipeline {
-  agent any
+  agent any;
     stage {
-      stage {'BUILD'} {
+      stage ('BUILD') {
         steps {
           echo "This is build stage"
         }
